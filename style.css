@@ -1,0 +1,192 @@
+body {
+  font-family: 'Merriweather', serif;
+    background: linear-gradient(to top, #dde0cc 30%, #fffdf6 90%);
+    /* color: #ffffff; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #6d8e74;
+    text-align: center;
+  }
+  .movie-poster{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+  }
+  .cinema-screen {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    border: 10px solid #a3b8b1;
+    border-radius: 20px;
+    box-shadow: 0 0 200px #a3b8b1;
+    background-color: #dde0cc;
+  }
+  
+  .trailers {
+    text-align: center;
+  }
+  .movie-section {
+    padding: 2rem;
+    background: radial-gradient(ellipse at center, #fffdf6 0%, #a3b8a3 100%);
+    color: #334937;
+    text-align: center;
+    border: 5px solid #b3c1b7;
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px #b3c1b7;
+  }
+  
+  .section-title {
+    font-family: 'Bangers', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .movie {
+    margin-bottom: 2rem;
+  }
+  
+  .movie h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2f5c4d;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 3px solid #f2d9d1;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #f2d9d1;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .movie {
+    margin-bottom: 40px;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 640px;
+    border-radius: 10px;
+    border: 4px solid #450700;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  button {
+    background-color: #95c19b;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
+  }
+  
+  button:hover {
+    background-color: #758c6c;
+  }
+  
+  textarea {
+    width: 90%;
+    max-width: 600px;
+    height: 100px;
+    margin: 20px 0;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  .rating {
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    color: #6d8e74;
+  }
+  
+  .link-to-actors {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #adcec7;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link-to-actors:hover {
+    background-color: #6b8d5a;
+  }
+  
+  .actors {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .actor img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .actor p {
+    font-size: 1.1em;
+    color: #ddd;
+  }
+  
+  @media (max-width: 768px) {
+    .cinema-screen {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    button, .link-to-actors {
+      font-size: 0.9em;
+      padding: 8px 15px;
+    }
+  
+    video {
+      max-width: 100%;
+    }
+  
+    textarea {
+      width: 95%;
+    }
+  }
+/* .film-link{
+  color: #184b3a;
+} */
+
+.actor .actor5{
+color: #334937;
+ }
